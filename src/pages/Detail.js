@@ -34,6 +34,7 @@ const Detail = ()=> {
                <StTitle>{todos.title}</StTitle>
               <StBody>{todos.body}</StBody>
                </>
+
              </StDialog>
             </StContainer>
     )}
@@ -47,6 +48,7 @@ const Detail = ()=> {
     display: flex;
     align-items: center;
     justify-content: center;
+   
     `;
 
 const StDialog = styled.div`
@@ -54,8 +56,12 @@ width: 600px;
 height: 400px;
 border: 1px solid #eee;
 display: flex;
+color: gray;
 flex-direction: column;
 justify-content: space-between;
+background-size: 600px;
+background-repeat: no-repeat;
+background-image: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdTu0mt%2FbtrKlU2YPwR%2FqFZ9SBwOfOzJS2in6qjQE0%2Fimg.png);
 `;
 
 const StDialogHeader = styled.div`
